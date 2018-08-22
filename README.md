@@ -21,7 +21,7 @@ La libreria offre servizi orientati alla creazione dell'elenco degli IdP (Identi
 
 Tale elenco può essere ampliato e arricchito con ulteriori dettagli dall'applicazione che usa la libreria di autenticazione, tipicamente tramite file di configurazione.
 
-Al momento le due applicazioni web dimostrative utilizzano il meccanismo di configurazione per la creazione dell'elenco degli IdP, ma è in corso di sviluppo la funzionalità di lettura dell'elenco IdP dal [registro SPID fornito da AgID](https://registry.spid.gov.it/identity-providers) .
+Al momento le due applicazioni web dimostrative utilizzano il meccanismo di configurazione per la creazione dell'elenco degli IdP, ma è in corso di sviluppo la funzionalità di lettura dell'elenco IdP dal [registro SPID fornito da AgID](https://registry.spid.gov.it/identity-providers).
 
 #### Richiesta Authn
 
@@ -91,7 +91,7 @@ Se l'applicazione Web da errore "Unable to find private key in the X509Certifica
 
 Il file così ottenuto contiene la chiave pubblica da utilizzare per la creazione del file XML dei metadati da inviare all'AgID (Agenzia per l'Italia Digitale) secondo le modalità di accreditamento descritte nella pagina [Come diventare fornitore di servizi Pubblici o Privati con SPID](https://www.spid.gov.it/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid).
 
-Una volta accreditati con AgID, il suddetto file di metadati verrà inviato ai vari IdP e si potrà testare il servizio e mandarlo in produzione.
+Una volta accreditati con AgID, il suddetto file di metadati verrà inviato direttamenta da AgID ai vari IdP e si potrà testare il servizio e mandarlo in produzione.
 
 Ad oggi, oltre al servizio locale di test, l'unico servizio esterno di test è fornito da Poste.it ed è a loro che va inviato il suddetto file di metadati per accreditarsi come SP e fare poi le prove di autenticazione e logout.
 
